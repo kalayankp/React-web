@@ -78,7 +78,7 @@ function AuthScreen() {
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Password"
               required
-              style={{ display: 'block', margin: '10px auto' }}
+              style={{ display: 'red', margin: '10px auto' }}
             />
             <button type="submit">{isRegistering ? 'Register' : 'Login'}</button>
           </form>
